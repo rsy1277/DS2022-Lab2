@@ -1,0 +1,11 @@
+[project]
+name = "ds2022-lab2"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "boto3>=1.43.121",
+    "chalice>=1.34.0",
+]
